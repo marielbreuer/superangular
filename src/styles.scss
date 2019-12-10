@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'parciales/colors';
+@import 'parciales/breakpoints';
+
+body{
+    background-color: var(--red);
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+}
+@media (max-width: $m1024){
+   body{
+    background-color: var(--green);
+   }
+} 

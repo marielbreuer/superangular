@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'super-utn';
+  img = "assets/img/budapest.jpg";
+  titulo = "Austria";
+  descrip = "Esto es un pasaje";
+  precio = 1000;
 }

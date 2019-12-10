@@ -3,10 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CardComponent } from './components/card/card.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
+import { ServiciosComponent } from './pages/servicios/servicios.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardComponent,
+    ContactoComponent,
+    ServiciosComponent,
+    NotfoundComponent,
+    HomeComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
