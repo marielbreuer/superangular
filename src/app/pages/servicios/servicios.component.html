@@ -1,2 +1,10 @@
 <h1>Servicios</h1>
 <p>servicios works!</p>
+{{ dataMascotas | json }}
+<ul>
+    <li *ngFor="let m of dataMascotas">
+    Nombre: {{ m.nombre | json}} <br>
+    Tipo: {{ m.tipo | json}}
+    <img src="{{ m.imagen }}" alt="">
+    </li>
+</ul>

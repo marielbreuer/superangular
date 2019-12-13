@@ -9,7 +9,11 @@ export class ContactoComponent implements OnInit {
 
   constructor() { }
 
+  numeros = [45,248,4,87,65]
+  banner = true;
+
   ngOnInit() {
+    
   }
 
 }

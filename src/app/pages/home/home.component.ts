@@ -9,6 +9,15 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
+  saludar (){
+    alert("HOLA, GRACIAS POR HACER CLICK!!!");
+  }
+  mostrar = false;
+
+  toggleCoso(){
+    this.mostrar = !this.mostrar;
+  }
+
   ngOnInit() {
   }
 
